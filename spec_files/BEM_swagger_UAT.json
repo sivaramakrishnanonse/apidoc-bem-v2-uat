@@ -2,11 +2,11 @@
   "openapi": "3.0.0",
   "x-servers": [
     {
-      "url": "https://se-exchange-uat-sandbox.apigee.net/building-energy-modeling",
+      "url": "https://se-exchange-uat-sandbox.apigee.net/analytics-building-energy-modeling-v2",
       "description": "Sandbox"
     },
     {
-      "url": "https://se-exchange-uat-uat.apigee.net/building-energy-modeling",
+      "url": "https://se-exchange-uat-uat.apigee.net/analytics-building-energy-modeling-v2",
       "description": "Production"
     }
   ],
