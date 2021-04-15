@@ -2,11 +2,11 @@
   "openapi": "3.0.0",
   "x-servers": [
     {
-      "url": "https://se-exchange-uat-sandbox.apigee.net/analytics-building-energy-modeling-v2",
-      "description": "Sandbox"
+      "url": "https://se-exchange-uat-sandbox.apigee.net/building-energy-modeling",
     },
+      "description": "Sandbox"
     {
-      "url": "https://se-exchange-uat-uat.apigee.net/analytics-building-energy-modeling-v2",
+      "url": "https://se-exchange-uat-uat.apigee.net/building-energy-modeling",
       "description": "Production"
     }
   ],
@@ -255,7 +255,3248 @@
                 ]
               ]
             },
-            "applyDataset": "data/input_short.csv"
+            "applyDataset": [
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "0",
+                "data_val": "6132.8"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "0",
+                "data_val": "0.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "0",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "0",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "0",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "0",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "0",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "0",
+                "data_val": "2011-01-01"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "1",
+                "data_val": "12967"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "1",
+                "data_val": "2.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "1",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "1",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "1",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "1",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "1",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "1",
+                "data_val": "2011-01-02"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "2",
+                "data_val": "15861"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "2",
+                "data_val": "1.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "2",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "2",
+                "data_val": "-2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "2",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "2",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "2",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "2",
+                "data_val": "2011-01-03"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "3",
+                "data_val": "16822"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "3",
+                "data_val": "2.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "3",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "3",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "3",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "3",
+                "data_val": "16452000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "3",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "3",
+                "data_val": "2011-01-04"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "4",
+                "data_val": "16740"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "4",
+                "data_val": "2.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "4",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "4",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "4",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "4",
+                "data_val": "6210200"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "4",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "4",
+                "data_val": "2011-01-05"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "5",
+                "data_val": "16569"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "5",
+                "data_val": "0.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "5",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "5",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "5",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "5",
+                "data_val": "7100300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "5",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "5",
+                "data_val": "2011-01-06"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "6",
+                "data_val": "16223"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "6",
+                "data_val": "1.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "6",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "6",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "6",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "6",
+                "data_val": "12029000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "6",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "6",
+                "data_val": "2011-01-07"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "7",
+                "data_val": "14323"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "7",
+                "data_val": "3.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "7",
+                "data_val": "8"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "7",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "7",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "7",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "7",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "7",
+                "data_val": "2011-01-08"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "8",
+                "data_val": "6720.5"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "8",
+                "data_val": "0.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "8",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "8",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "8",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "8",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "8",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "8",
+                "data_val": "2011-01-09"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "9",
+                "data_val": "13645"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "9",
+                "data_val": "0.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "9",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "9",
+                "data_val": "-2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "9",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "9",
+                "data_val": "5012400"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "9",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "9",
+                "data_val": "2011-01-10"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "10",
+                "data_val": "16256"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "10",
+                "data_val": "0.5"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "10",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "10",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "10",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "10",
+                "data_val": "5257400"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "10",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "10",
+                "data_val": "2011-01-11"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "11",
+                "data_val": "17138"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "11",
+                "data_val": "0.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "11",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "11",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "11",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "11",
+                "data_val": "6307700"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "11",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "11",
+                "data_val": "2011-01-12"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "12",
+                "data_val": "16238"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "12",
+                "data_val": "4.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "12",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "12",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "12",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "12",
+                "data_val": "6503600"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "12",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "12",
+                "data_val": "2011-01-13"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "13",
+                "data_val": "15685"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "13",
+                "data_val": "5.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "13",
+                "data_val": "8"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "13",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "13",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "13",
+                "data_val": "13167000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "13",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "13",
+                "data_val": "2011-01-14"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "14",
+                "data_val": "13942"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "14",
+                "data_val": "-1.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "14",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "14",
+                "data_val": "-5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "14",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "14",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "14",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "14",
+                "data_val": "2011-01-15"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "15",
+                "data_val": "6829.8"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "15",
+                "data_val": "-2.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "15",
+                "data_val": "1"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "15",
+                "data_val": "-5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "15",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "15",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "15",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "15",
+                "data_val": "2011-01-16"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "16",
+                "data_val": "12283"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "16",
+                "data_val": "0.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "16",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "16",
+                "data_val": "-4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "16",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "16",
+                "data_val": "4374900"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "16",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "16",
+                "data_val": "2011-01-17"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "17",
+                "data_val": "15744"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "17",
+                "data_val": "0.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "17",
+                "data_val": "1"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "17",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "17",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "17",
+                "data_val": "5870200"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "17",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "17",
+                "data_val": "2011-01-18"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "18",
+                "data_val": "16276"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "18",
+                "data_val": "1.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "18",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "18",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "18",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "18",
+                "data_val": "6585500"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "18",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "18",
+                "data_val": "2011-01-19"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "19",
+                "data_val": "16347"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "19",
+                "data_val": "0.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "19",
+                "data_val": "1"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "19",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "19",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "19",
+                "data_val": "5865800"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "19",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "19",
+                "data_val": "2011-01-20"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "20",
+                "data_val": "15893"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "20",
+                "data_val": "0.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "20",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "20",
+                "data_val": "-2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "20",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "20",
+                "data_val": "14282000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "20",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "20",
+                "data_val": "2011-01-21"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "21",
+                "data_val": "14975"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "21",
+                "data_val": "3.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "21",
+                "data_val": "7"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "21",
+                "data_val": "-2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "21",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "21",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "21",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "21",
+                "data_val": "2011-01-22"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "22",
+                "data_val": "6713.4"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "22",
+                "data_val": "2.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "22",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "22",
+                "data_val": "-2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "22",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "22",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "22",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "22",
+                "data_val": "2011-01-23"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "23",
+                "data_val": "4560.9"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "23",
+                "data_val": "0.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "23",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "23",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "23",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "23",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "23",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "23",
+                "data_val": "2011-01-24"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "24",
+                "data_val": "13061"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "24",
+                "data_val": "3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "24",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "24",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "24",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "24",
+                "data_val": "4470600"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "24",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "24",
+                "data_val": "2011-01-25"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "25",
+                "data_val": "15723"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "25",
+                "data_val": "3.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "25",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "25",
+                "data_val": "3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "25",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "25",
+                "data_val": "5693900"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "25",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "25",
+                "data_val": "2011-01-26"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "26",
+                "data_val": "15533"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "26",
+                "data_val": "3.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "26",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "26",
+                "data_val": "1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "26",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "26",
+                "data_val": "7776600"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "26",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "26",
+                "data_val": "2011-01-27"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "27",
+                "data_val": "16156"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "27",
+                "data_val": "0.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "27",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "27",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "27",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "27",
+                "data_val": "6148000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "27",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "27",
+                "data_val": "2011-01-28"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "28",
+                "data_val": "15010"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "28",
+                "data_val": "0.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "28",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "28",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "28",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "28",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "28",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "28",
+                "data_val": "2011-01-29"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "29",
+                "data_val": "15835"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "29",
+                "data_val": "-0.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "29",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "29",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "29",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "29",
+                "data_val": "9555800"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "29",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "29",
+                "data_val": "2011-01-30"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "30",
+                "data_val": "14791"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "30",
+                "data_val": "2.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "30",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "30",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "30",
+                "data_val": "232300"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "30",
+                "data_val": "1870300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "30",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "30",
+                "data_val": "2011-01-31"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "31",
+                "data_val": "6379.8"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "31",
+                "data_val": "2.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "31",
+                "data_val": "7"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "31",
+                "data_val": "-3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "31",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "31",
+                "data_val": "18132000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "31",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "31",
+                "data_val": "2011-02-01"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "32",
+                "data_val": "917.3"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "32",
+                "data_val": "5.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "32",
+                "data_val": "11"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "32",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "32",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "32",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "32",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "32",
+                "data_val": "2011-02-02"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "33",
+                "data_val": "829.93"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "33",
+                "data_val": "7.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "33",
+                "data_val": "14"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "33",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "33",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "33",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "33",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "33",
+                "data_val": "2011-02-03"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "34",
+                "data_val": "838.08"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "34",
+                "data_val": "8.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "34",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "34",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "34",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "34",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "34",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "34",
+                "data_val": "2011-02-04"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "35",
+                "data_val": "905.58"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "35",
+                "data_val": "9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "35",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "35",
+                "data_val": "4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "35",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "35",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "35",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "35",
+                "data_val": "2011-02-05"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "36",
+                "data_val": "1941.7"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "36",
+                "data_val": "9.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "36",
+                "data_val": "17"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "36",
+                "data_val": "5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "36",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "36",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "36",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "36",
+                "data_val": "2011-02-06"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "37",
+                "data_val": "10015"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "37",
+                "data_val": "10.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "37",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "37",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "37",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "37",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "37",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "37",
+                "data_val": "2011-02-07"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "38",
+                "data_val": "12130"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "38",
+                "data_val": "10.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "38",
+                "data_val": "17"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "38",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "38",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "38",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "38",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "38",
+                "data_val": "2011-02-08"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "39",
+                "data_val": "12585"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "39",
+                "data_val": "5.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "39",
+                "data_val": "8"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "39",
+                "data_val": "4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "39",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "39",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "39",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "39",
+                "data_val": "2011-02-09"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "40",
+                "data_val": "13282"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "40",
+                "data_val": "2.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "40",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "40",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "40",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "40",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "40",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "40",
+                "data_val": "2011-02-10"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "41",
+                "data_val": "14423"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "41",
+                "data_val": "2.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "41",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "41",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "41",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "41",
+                "data_val": "5237900"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "41",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "41",
+                "data_val": "2011-02-11"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "42",
+                "data_val": "15841"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "42",
+                "data_val": "1.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "42",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "42",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "42",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "42",
+                "data_val": "6164000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "42",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "42",
+                "data_val": "2011-02-12"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "43",
+                "data_val": "6328.1"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "43",
+                "data_val": "1.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "43",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "43",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "43",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "43",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "43",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "43",
+                "data_val": "2011-02-13"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "44",
+                "data_val": "13454"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "44",
+                "data_val": "-0.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "44",
+                "data_val": "4"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "44",
+                "data_val": "-4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "44",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "44",
+                "data_val": "4146100"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "44",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "44",
+                "data_val": "2011-02-14"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "45",
+                "data_val": "16185"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "45",
+                "data_val": "3.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "45",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "45",
+                "data_val": "-1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "45",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "45",
+                "data_val": "5842100"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "45",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "45",
+                "data_val": "2011-02-15"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "46",
+                "data_val": "15606"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "46",
+                "data_val": "4.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "46",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "46",
+                "data_val": "3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "46",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "46",
+                "data_val": "6351800"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "46",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "46",
+                "data_val": "2011-02-16"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "47",
+                "data_val": "15118"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "47",
+                "data_val": "2.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "47",
+                "data_val": "5"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "47",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "47",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "47",
+                "data_val": "5975300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "47",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "47",
+                "data_val": "2011-02-17"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "48",
+                "data_val": "15077"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "48",
+                "data_val": "3.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "48",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "48",
+                "data_val": "1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "48",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "48",
+                "data_val": "13161000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "48",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "48",
+                "data_val": "2011-02-18"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "49",
+                "data_val": "14067"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "49",
+                "data_val": "5.5"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "49",
+                "data_val": "7"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "49",
+                "data_val": "4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "49",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "49",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "49",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "49",
+                "data_val": "2011-02-19"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "50",
+                "data_val": "6807.4"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "50",
+                "data_val": "6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "50",
+                "data_val": "10"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "50",
+                "data_val": "1"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "50",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "50",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "50",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "50",
+                "data_val": "2011-02-20"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "51",
+                "data_val": "11946"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "51",
+                "data_val": "7.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "51",
+                "data_val": "12"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "51",
+                "data_val": "3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "51",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "51",
+                "data_val": "4333200"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "51",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "51",
+                "data_val": "2011-02-21"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "52",
+                "data_val": "13721"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "52",
+                "data_val": "9.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "52",
+                "data_val": "14"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "52",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "52",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "52",
+                "data_val": "6093200"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "52",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "52",
+                "data_val": "2011-02-22"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "53",
+                "data_val": "13660"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "53",
+                "data_val": "10.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "53",
+                "data_val": "16"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "53",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "53",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "53",
+                "data_val": "6200300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "53",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "53",
+                "data_val": "2011-02-23"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "54",
+                "data_val": "14096"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "54",
+                "data_val": "12.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "54",
+                "data_val": "20"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "54",
+                "data_val": "8"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "54",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "54",
+                "data_val": "6361100"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "54",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "54",
+                "data_val": "2011-02-24"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "55",
+                "data_val": "14383"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "55",
+                "data_val": "8.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "55",
+                "data_val": "10"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "55",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "55",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "55",
+                "data_val": "13268000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "55",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "55",
+                "data_val": "2011-02-25"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "56",
+                "data_val": "13046"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "56",
+                "data_val": "12.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "56",
+                "data_val": "14"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "56",
+                "data_val": "9"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "56",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "56",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "56",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "56",
+                "data_val": "2011-02-26"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "57",
+                "data_val": "5972.6"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "57",
+                "data_val": "10.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "57",
+                "data_val": "17"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "57",
+                "data_val": "5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "57",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "57",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "57",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "57",
+                "data_val": "2011-02-27"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "58",
+                "data_val": "11532"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "58",
+                "data_val": "4.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "58",
+                "data_val": "6"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "58",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "58",
+                "data_val": "163940"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "58",
+                "data_val": "2703200"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "58",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "58",
+                "data_val": "2011-02-28"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "59",
+                "data_val": "14457"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "59",
+                "data_val": "1.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "59",
+                "data_val": "3"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "59",
+                "data_val": "0"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "59",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "59",
+                "data_val": "7693700"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "59",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "59",
+                "data_val": "2011-03-01"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "60",
+                "data_val": "14791"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "60",
+                "data_val": "5.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "60",
+                "data_val": "9"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "60",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "60",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "60",
+                "data_val": "6415000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "60",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "60",
+                "data_val": "2011-03-02"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "61",
+                "data_val": "14009"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "61",
+                "data_val": "6.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "61",
+                "data_val": "10"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "61",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "61",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "61",
+                "data_val": "6813300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "61",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "61",
+                "data_val": "2011-03-03"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "62",
+                "data_val": "14530"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "62",
+                "data_val": "5.7"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "62",
+                "data_val": "10"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "62",
+                "data_val": "3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "62",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "62",
+                "data_val": "16958000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "62",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "62",
+                "data_val": "2011-03-04"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "63",
+                "data_val": "12933"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "63",
+                "data_val": "9.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "63",
+                "data_val": "11"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "63",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "63",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "63",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "63",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "63",
+                "data_val": "2011-03-05"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "64",
+                "data_val": "6158"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "64",
+                "data_val": "7.1"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "64",
+                "data_val": "9"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "64",
+                "data_val": "4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "64",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "64",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "64",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "64",
+                "data_val": "2011-03-06"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "65",
+                "data_val": "11284"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "65",
+                "data_val": "6.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "65",
+                "data_val": "11"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "65",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "65",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "65",
+                "data_val": "4632300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "65",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "65",
+                "data_val": "2011-03-07"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "66",
+                "data_val": "13489"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "66",
+                "data_val": "9.9"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "66",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "66",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "66",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "66",
+                "data_val": "6165300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "66",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "66",
+                "data_val": "2011-03-08"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "67",
+                "data_val": "13935"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "67",
+                "data_val": "8.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "67",
+                "data_val": "13"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "67",
+                "data_val": "2"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "67",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "67",
+                "data_val": "6505300"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "67",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "67",
+                "data_val": "2011-03-09"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "68",
+                "data_val": "14011"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "68",
+                "data_val": "9.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "68",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "68",
+                "data_val": "5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "68",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "68",
+                "data_val": "6578600"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "68",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "68",
+                "data_val": "2011-03-10"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "69",
+                "data_val": "13903"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "69",
+                "data_val": "11.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "69",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "69",
+                "data_val": "8"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "69",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "69",
+                "data_val": "13844000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "69",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "69",
+                "data_val": "2011-03-11"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "70",
+                "data_val": "12486"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "70",
+                "data_val": "12.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "70",
+                "data_val": "18"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "70",
+                "data_val": "8"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "70",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "70",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "70",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "70",
+                "data_val": "2011-03-12"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "71",
+                "data_val": "5781.5"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "71",
+                "data_val": "13.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "71",
+                "data_val": "18"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "71",
+                "data_val": "8"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "71",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "71",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "71",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "71",
+                "data_val": "2011-03-13"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "72",
+                "data_val": "10881"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "72",
+                "data_val": "9.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "72",
+                "data_val": "16"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "72",
+                "data_val": "5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "72",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "72",
+                "data_val": "4882500"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "72",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "72",
+                "data_val": "2011-03-14"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "73",
+                "data_val": "13609"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "73",
+                "data_val": "6.4"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "73",
+                "data_val": "9"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "73",
+                "data_val": "3"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "73",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "73",
+                "data_val": "7933800"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "73",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "73",
+                "data_val": "2011-03-15"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "74",
+                "data_val": "13394"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "74",
+                "data_val": "9.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "74",
+                "data_val": "13"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "74",
+                "data_val": "5"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "74",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "74",
+                "data_val": "6306600"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "74",
+                "data_val": "4"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "74",
+                "data_val": "2011-03-16"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "75",
+                "data_val": "15381"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "75",
+                "data_val": "11.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "75",
+                "data_val": "16"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "75",
+                "data_val": "8"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "75",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "75",
+                "data_val": "6557800"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "75",
+                "data_val": "5"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "75",
+                "data_val": "2011-03-17"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "76",
+                "data_val": "14175"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "76",
+                "data_val": "11.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "76",
+                "data_val": "14"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "76",
+                "data_val": "10"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "76",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "76",
+                "data_val": "14231000"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "76",
+                "data_val": "6"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "76",
+                "data_val": "2011-03-18"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "77",
+                "data_val": "13860"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "77",
+                "data_val": "14.3"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "77",
+                "data_val": "16"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "77",
+                "data_val": "12"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "77",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "77",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "77",
+                "data_val": "7"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "77",
+                "data_val": "2011-03-19"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "78",
+                "data_val": "5696.2"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "78",
+                "data_val": "9.6"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "78",
+                "data_val": "15"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "78",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "78",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "78",
+                "data_val": "0"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "78",
+                "data_val": "1"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "78",
+                "data_val": "2011-03-20"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "79",
+                "data_val": "11589"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "79",
+                "data_val": "6.2"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "79",
+                "data_val": "7"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "79",
+                "data_val": "6"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "79",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "79",
+                "data_val": "4320100"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "79",
+                "data_val": "2"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "79",
+                "data_val": "2011-03-21"
+              },
+              {
+                "data_col": "Energy_EMS_DELTAS_kWh",
+                "data_row": "80",
+                "data_val": "14322"
+              },
+              {
+                "data_col": "average_temp",
+                "data_row": "80",
+                "data_val": "6.8"
+              },
+              {
+                "data_col": "max_temp",
+                "data_row": "80",
+                "data_val": "10"
+              },
+              {
+                "data_col": "min_temp",
+                "data_row": "80",
+                "data_val": "4"
+              },
+              {
+                "data_col": "DVC_hours",
+                "data_row": "80",
+                "data_val": "260650"
+              },
+              {
+                "data_col": "Shipment_RMB",
+                "data_row": "80",
+                "data_val": "6373200"
+              },
+              {
+                "data_col": "day_groups",
+                "data_row": "80",
+                "data_val": "3"
+              },
+              {
+                "data_col": "date_time",
+                "data_row": "80",
+                "data_val": "2011-03-22"
+              }
+            ]
           },
           "GlobalParameters": {
             "faultDetection": "overconsumption"
@@ -15065,9 +18306,9 @@
             "positiveDriverNames": "Shipment_RMB",
             "minTempName": "min_temp",
             "datetimeName": "date_time",
-            "driverNames": "DVC_hours",
+            "driverNames": "DVC_hours,Shipment_RMB",
             "improveCalendar": "false",
-            "signatureType": "None",
+            "signatureType": "twoParameters,threeParametersHeating,threeParametersCooling",
             "maxTempName": "max_temp",
             "maxNbMergedDayGroups": 3,
             "degreeDaysMethod": "basic",
